@@ -144,6 +144,23 @@ a {
     padding: 1.5rem;
 }
 
+.github-icon {
+    background-color: black;
+    border: none;
+}
+
+.github-icon i {
+    color: white;
+}
+
+.github-icon:hover {
+    background-color: white;
+}
+
+.github-icon:hover i {
+    color: black;
+}
+
 /* Contact Section Styles */
 #contact {
     background-color: #343a40;
