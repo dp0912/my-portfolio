@@ -2,301 +2,282 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Personal Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Personal Portfolio</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
 
 <body>
 
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="#">Personal Portfolio</a>
+			<button class="navbar-toggler align-center" type="button" data-toggle="collapse" data-target="#navbarText"
+				aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end" id="navbarText">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#home">Home</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#projects">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#skills">Skills</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#certifications">Certifications</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
 
-    <nav class="navbar navbar-dark bg-dark py-3 fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">Personal Portfolio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
-                aria-labelledby="offcanvasDarkNavbarLabel">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Portfolio</h5>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                        aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#skills">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projects">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="certifications">Certificates</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact Me</a>
-                        </li>
-                    </ul>
-                    <div class="d-flex gap-3 fs-4 position-absolute bottom-0 m-3">
-                        <a href="#" class="text-light"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#" class="text-light"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#" class="text-light"><i class="fa-brands fa-github"></i></a>
-                        <a href="#" class="text-light"><i class="fa-brands fa-linkedin"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </nav>
+	</nav>
 
+	<section id="home" class="bg-dark text-light py-4">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+					<div class="row align-items-center">
+						<div class="col-lg-12 mb-4 mb-lg-0 text-center text-lg-start">
+							<img src="about.jpg" class="img-fluid rounded-circle mb-4" alt="Profile Picture">
+						</div>
+						<div class="col-lg-12 text-center text-lg-start">
+							<h1 class="display-5 fw-bold">Hello I'm </h1>
+							<h1 class="display-5 fw-bold">Dhruvin Patel </h1>
+							<p class="fs-4">I am a Software Engineering Student</p>
+							<div class="d-flex justify-content-center justify-content-lg-start">
+								<button class="btn btn-info btn-lg">My Resume</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+					<section id="about" class="py-5">
+						<div class="container text-center">
+							<h1>ABOUT ME</h1>
+							<hr>
+							<p class="fs-5">As a third-year Software Engineering student at Ontario Tech University, I’m
+								passionate
+								about leveraging technology to create innovative solutions. My studies have provided me
+								with a robust
+								foundation in C++, Java, and Python. I excel at tackling complex problems and have a
+								strong
+								command of database management.</p>
+							<p class="fs-5">My interests extend to software development, embedded systems, data
+								engineering, AI,
+								machine learning, and software testing. I’m enthusiastic about applying my skills to
+								real-world projects
+								that drive technological advancements.</p>
+							<p class="fs-5">Currently, I am immersed in academic projects that challenge and inspire me.
+								I am excited to
+								connect with professionals and mentors in the tech industry to explore collaboration
+								opportunities and contribute to impactful developments.</p>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <section id="home" class="bg-dark text-light py-5">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 mb-4 mb-lg-0 text-center text-lg-start">
-                    <img src="img3.jpg" class="img-fluid rounded-circle mb-4" alt="Profile Picture">
-                </div>
-                <div class="col-lg-6 text-center text-lg-start">
-                    <h1 class="display-4 fw-bold">Hello I'm </h1>
-                    <h1 class="display-4 fw-bold">Dhruvin Patel </h1>
-                    <p class="fs-3">I am a Software Engineering Student</p>
-                    <div class="d-flex justify-content-center justify-content-lg-start">
-                        <button class="btn btn-info btn-lg">My Resume</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+	<section id="projects" class="py-4">
+		<div class="container">
+			<h2 class="text-center">My Projects</h2>
+			<hr class="my-4">
+			<div class="row">
+				<div class="col-lg-6 mb-4">
+					<div class="card">
+						<img src="project-1.jpg" alt="Criminal Record Management System" class="img-card-top">
+						<div class="card-body">
+							<h5 class="card-title">Criminal Record Management System</h5>
+							<p>This project is a Criminal Record Management System developed in C++. It allows users to
+								add, modify, delete, and display criminal records, including convict details and court
+								information, with robust input validation for data accuracy. I plan to enhance the
+								system by connecting it to a MySQL database for persistent storage and efficient data
+								management, enabling better querying and retrieval of records..</p>
+							<a href="https://github.com/dp0912/Criminal-Record-" target="_blank"
+								class="btn btn-primary github-icon">
+								<i class="fab fa-github"></i> <!-- GitHub Icon -->
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 mb-4">
+					<div class="card">
+						<img src="project-2.jpg" alt="Bank Management System" class="img-card-top">
+						<div class="card-body">
+							<h5 class="card-title">Bank Management System</h5>
+							<p>This Bank Management System in C++ allows users to create accounts, deposit and withdraw
+								funds, check balances, and update account information. It features robust input
+								validation to ensure data integrity. The program operates through a user-friendly menu
+								interface. Future enhancements will include integration with a MySQL database for
+								persistent data storage and improved transaction management.</p>
+							<a href="https://github.com/dp0912/Bank-Management-System" target="_blank"
+								class="btn btn-primary github-icon">
+								<i class="fab fa-github"></i> <!-- GitHub Icon -->
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 mb-4">
+					<div class="card">
+						<img src="project-3.jpg" alt="Finance Tracker" class="img-card-top">
+						<div class="card-body">
+							<h5 class="card-title">Finance Tracker</h5>
+							<p>This Finance Tracker Application in Java enables users to create profiles, manage
+								expenses, and track income. Users can register with their name, address, mobile number,
+								and annual income, all while ensuring valid inputs. The app features a simple menu for
+								creating users, selecting existing profiles, and managing finances. Future improvements
+								will include database integration for persistent user data and enhanced financial
+								analytics.</p>
+							<a href="https://github.com/dp0912/Finance-Tracker" target="_blank"
+								class="btn btn-primary github-icon">
+								<i class="fab fa-github"></i> <!-- GitHub Icon -->
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 mb-4">
+					<div class="card">
+						<img src="project-1.jpg" alt="Weather App" class="img-card-top">
+						<div class="card-body">
+							<h5 class="card-title">Weather App</h5>
+							<p>This Weather Application uses Flask to deliver real-time weather updates for
+								user-inputted cities, fetching data from the OpenWeatherMap API. It defaults to Toronto
+								if no input is given and includes error handling for invalid cities. With a responsive
+								design, it ensures accessibility across devices. Future enhancements could include
+								saving favorite locations. This project highlights practical web development and API
+								integration skills.</p>
+							<a href="https://github.com/dp0912/weather-app" target="_blank"
+								class="btn btn-primary github-icon">
+								<i class="fab fa-github"></i> <!-- GitHub Icon -->
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <section id="about" class="py-5">
-        <div class="container text-center">
-            <h1>ABOUT ME</h1>
-            <hr>
-            <p class="fs-5">As a third-year Software Engineering student at Ontario Tech University, I’m passionate
-                about leveraging technology to create innovative solutions. My studies have provided me with a robust
-                foundation in C++, Java, and Python. I excel at tackling complex problems and have a strong
-                command of database management.</p>
-            <p class="fs-5">My interests extend to software development, embedded systems, data engineering, AI,
-                machine learning, and software testing. I’m enthusiastic about applying my skills to real-world projects
-                that drive technological advancements.</p>
-            <p class="fs-5">Currently, I am immersed in academic projects that challenge and inspire me. I am excited to
-                connect with professionals and mentors in the tech industry to explore collaboration
-                opportunities and contribute to impactful developments.</p>
-        </div>
-    </section>
+	<section id="skills" class="bg-dark text-light py-4">
+		<div class="container text-center">
+			<h2>Technical Expertise</h2>
+			<hr class="my-4">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 text-center mb-4">
+					<i class="fa-solid fa-laptop-code fs-2 border p-3 rounded-circle mb-3"></i>
+					<h3 class="fs-4">Programming Languages</h3>
+					<p>C, C++, Python, Java, HTML, CSS, SQL</p>
+				</div>
+				<div class="col-lg-4 col-md-6 text-center mb-4">
+					<i class="fa-solid fa-database fs-2 border p-3 rounded-circle mb-3"></i>
+					<h3 class="fs-4">Databases</h3>
+					<p>MySQL, SQL Server (basic knowledge)</p>
+				</div>
+				<div class="col-lg-4 col-md-6 text-center mb-4">
+					<i class="fa-solid fa-tools fs-2 border p-3 rounded-circle mb-3"></i>
+					<h3 class="fs-4">Tools & Platforms</h3>
+					<p>Git, GitHub, VS Code, SolidWorks, Microsoft Office</p>
+				</div>
+				<div class="col-lg-4 col-md-6 text-center mb-4">
+					<i class="fa-solid fa-code-branch fs-2 border p-3 rounded-circle mb-3"></i>
+					<h3 class="fs-4">Version Control</h3>
+					<p>Proficient in Git for version control and collaboration</p>
+				</div>
+				<div class="col-lg-4 col-md-6 text-center mb-4">
+					<i class="fa-solid fa-project-diagram fs-2 border p-3 rounded-circle mb-3"></i>
+					<h3 class="fs-4">Development Concepts</h3>
+					<p>Basic scripting, database management, and embedded systems</p>
+				</div>
+				<div class="col-lg-4 col-md-6 text-center mb-4">
+					<i class="fa-solid fa-lightbulb fs-2 border p-3 rounded-circle mb-3"></i>
+					<h3 class="fs-4">Problem-Solving</h3>
+					<p>Strong analytical and problem-solving skills applied through various academic projects
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <section id="skills" class="bg-dark text-light py-5">
-        <div class="container">
-            <h2 class="text-center mb-4">Technical Expertise</h2>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 text-center mb-4">
-                    <i class="fa-solid fa-laptop-code fs-2 border p-3 rounded-circle mb-3"></i>
-                    <h3 class="fs-4">Programming Languages</h3>
-                    <p>C, C++, Python, Java, HTML, CSS, SQL</p>
-                </div>
-                <div class="col-lg-4 col-md-6 text-center mb-4">
-                    <i class="fa-solid fa-database fs-2 border p-3 rounded-circle mb-3"></i>
-                    <h3 class="fs-4">Databases</h3>
-                    <p>MySQL, SQL Server (basic knowledge)</p>
-                </div>
-                <div class="col-lg-4 col-md-6 text-center mb-4">
-                    <i class="fa-solid fa-tools fs-2 border p-3 rounded-circle mb-3"></i>
-                    <h3 class="fs-4">Tools & Platforms</h3>
-                    <p>Git, GitHub, VS Code, SolidWorks, Microsoft Office</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 text-center mb-4">
-                    <i class="fa-solid fa-code-branch fs-2 border p-3 rounded-circle mb-3"></i>
-                    <h3 class="fs-4">Version Control</h3>
-                    <p>Proficient in Git for version control and collaboration</p>
-                </div>
-                <div class="col-lg-4 col-md-6 text-center mb-4">
-                    <i class="fa-solid fa-project-diagram fs-2 border p-3 rounded-circle mb-3"></i>
-                    <h3 class="fs-4">Development Concepts</h3>
-                    <p>Basic scripting, database management, and embedded systems</p>
-                </div>
-                <div class="col-lg-4 col-md-6 text-center mb-4">
-                    <i class="fa-solid fa-lightbulb fs-2 border p-3 rounded-circle mb-3"></i>
-                    <h3 class="fs-4">Problem-Solving</h3>
-                    <p>Strong analytical and problem-solving skills applied through various academic projects</p>
-                </div>
-            </div>
-        </div>
-    </section>
+	<section id="certifications" class="py-4">
+		<div class="container text-center">
+			<h2>Certifications</h2>
+			<hr class="my-4">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mx-auto mb-4">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Master C++ Programming</h5>
+							<p class="card-text">From Beginner To Advanced - 2024 Edition</p>
+							<a href="https://www.udemy.com/certificate/UC-6624d08c-451b-4261-bc18-a849eb3ca1da/"
+								class="btn btn-primary" target="_blank">View Certificate</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mx-auto mb-4">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">The Ultimate MySQL Bootcamp</h5>
+							<p class="card-text">Go from SQL Beginner to Expert</p>
+							<a href="https://www.udemy.com/certificate/UC-699d60e8-c0ad-4d1a-ae97-86babbadf838/"
+								class="btn btn-primary" target="_blank">View Certificate</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mx-auto mb-4">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Software Development Training</h5>
+							<p class="card-text">Seize the Moment:Software Development Training Completion</p>
+							<a href="https://verified.sertifier.com/en/verify/76973745939107/?ref=email"
+								class="btn btn-primary" target="_blank">View Certificate</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
+	<section id="contact" class="bg-dark text-light py-3">
+		<div class="container text-center">
+			<h2>Contact Me</h2>
+			<hr>
+			<p class="fs-5">Feel free to get in touch with me via email, phone, or connect on social media.</p>
+			<p class="fs-5">Email: <a href="mailto:dhruvinvpatel12@gmail.com"
+					class="text-light">dhruvinvpatel12@gmail.com</a></p>
+			<p class="fs-5">Phone: <a href="tel:+16478854126" class="text-light">+1 647-885-4126</a></p>
+			<p class="fs-5">Connect with me:</p>
+			<div class="d-flex justify-content-center gap-3">
+				<a href="https://www.linkedin.com/in/dhruvin-patel09" class="text-light" target="_blank">
+					<i class="fa-brands fa-linkedin fs-2"></i>
+				</a>
+				<a href="https://github.com/dp0912" class="text-light" target="_blank">
+					<i class="fa-brands fa-github fs-2"></i>
+				</a>
+				<a href="https://www.facebook.com/dhruvin.patel.524596" class="text-light" target="_blank">
+					<i class="fa-brands fa-facebook fs-2"></i>
+				</a>
+				<a href="https://www.instagram.com/dhruvin0912/" class="text-light" target="_blank">
+					<i class="fa-brands fa-instagram fs-2"></i>
+				</a>
+			</div>
+		</div>
+	</section>
 
-    <!-- Projects Section -->
-    <!-- Projects Section -->
-    <section id="projects" class="py-5">
-        <div class="container">
-            <h1 class="text-center mb-3">MY PROJECTS</h1>
-            <div class="row">
-                <div class="col-lg-6 mb-4">
-                    <div class="card">
-                        <img src="project-1.jpg" alt="Criminal Record Management System" class="img-card-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Criminal Record Management System</h5>
-                            <p>This project is a Criminal Record Management System developed in C++. It allows users to
-                                add, modify, delete, and display criminal records, including convict details and court
-                                information, with robust input validation for data accuracy. I plan to enhance the
-                                system by connecting it to a MySQL database for persistent storage and efficient data
-                                management, enabling better querying and retrieval of records..</p>
-                            <a href="https://github.com/dp0912/Criminal-Record-" target="_blank"
-                                class="btn btn-primary github-icon">
-                                <i class="fab fa-github"></i> <!-- GitHub Icon -->
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 mb-4">
-                    <div class="card">
-                        <img src="project-2.jpg" alt="Bank Management System" class="img-card-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Bank Management System</h5>
-                            <p>This Bank Management System in C++ allows users to create accounts, deposit and withdraw
-                                funds, check balances, and update account information. It features robust input
-                                validation to ensure data integrity. The program operates through a user-friendly menu
-                                interface. Future enhancements will include integration with a MySQL database for
-                                persistent data storage and improved transaction management.</p>
-                            <a href="https://github.com/dp0912/Bank-Management-System" target="_blank"
-                                class="btn btn-primary github-icon">
-                                <i class="fab fa-github"></i> <!-- GitHub Icon -->
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 mb-4">
-                    <div class="card">
-                        <img src="project-3.jpg" alt="Finance Tracker" class="img-card-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Finance Tracker</h5>
-                            <p>This Finance Tracker Application in Java enables users to create profiles, manage
-                                expenses, and track income. Users can register with their name, address, mobile number,
-                                and annual income, all while ensuring valid inputs. The app features a simple menu for
-                                creating users, selecting existing profiles, and managing finances. Future improvements
-                                will include database integration for persistent user data and enhanced financial
-                                analytics.</p>
-                            <a href="https://github.com/dp0912/Finance-Tracker" target="_blank"
-                                class="btn btn-primary github-icon">
-                                <i class="fab fa-github"></i> <!-- GitHub Icon -->
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 mb-4">
-                    <div class="card">
-                        <img src="project-4.jpg" alt="Weather App" class="img-card-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Weather App</h5>
-                            <p>This Weather Application uses Flask to deliver real-time weather updates for
-                                user-inputted cities, fetching data from the OpenWeatherMap API. It defaults to Toronto
-                                if no input is given and includes error handling for invalid cities. With a responsive
-                                design, it ensures accessibility across devices. Future enhancements could include
-                                saving favorite locations. This project highlights practical web development and API
-                                integration skills.</p>
-                            <a href="https://github.com/dp0912/weather-app" target="_blank"
-                                class="btn btn-primary github-icon">
-                                <i class="fab fa-github"></i> <!-- GitHub Icon -->
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+	<footer class="bg-dark text-light">
+		<span>&copy; 2024 Dhruvin Patel. All Rights Reserved.</span>
+	</footer>
 
-
-
-    <!-- Certifications Section -->
-    <section id="certifications" class="py-5">
-        <div class="container text-center">
-            <h1>CERTIFICATIONS</h1>
-            <hr class="my-4">
-            <div class="row">
-                <div class="col-lg-6 mx-auto mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Master C++ Programming</h5>
-                            <p class="card-text">From Beginner To Advanced - 2024 Edition</p>
-                            <a href="https://www.udemy.com/certificate/UC-6624d08c-451b-4261-bc18-a849eb3ca1da/"
-                                class="btn btn-primary" target="_blank">View Certificate</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 mx-auto mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">The Ultimate MySQL Bootcamp</h5>
-                            <p class="card-text">Go from SQL Beginner to Expert</p>
-                            <a href="https://www.udemy.com/certificate/UC-699d60e8-c0ad-4d1a-ae97-86babbadf838/"
-                                class="btn btn-primary" target="_blank">View Certificate</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 mx-auto mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Software Development Training</h5>
-                            <p class="card-text">Seize the Moment:Software Development Training Completion</p>
-                            <a href="https://verified.sertifier.com/en/verify/76973745939107/?ref=email"
-                                class="btn btn-primary" target="_blank">View Certificate</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-
-    <section id="contact" class="bg-dark text-light py-5">
-        <div class="container text-center">
-            <h1>CONTACT ME</h1>
-            <hr>
-            <p class="fs-5">Feel free to get in touch with me via email, phone, or connect on social media.</p>
-            <p class="fs-5">Email: <a href="mailto:dhruvinvpatel12@gmail.com"
-                    class="text-light">dhruvinvpatel12@gmail.com</a></p>
-            <p class="fs-5">Phone: <a href="tel:+16478854126" class="text-light">+1 647-885-4126</a></p>
-            <p class="fs-5">Connect with me:</p>
-            <div class="d-flex justify-content-center gap-3">
-                <a href="https://www.linkedin.com/in/dhruvin-patel09" class="text-light" target="_blank">
-                    <i class="fa-brands fa-linkedin fs-2"></i>
-                </a>
-                <a href="https://github.com/dp0912" class="text-light" target="_blank">
-                    <i class="fa-brands fa-github fs-2"></i>
-                </a>
-                <a href="https://www.facebook.com/dhruvin.patel.524596" class="text-light" target="_blank">
-                    <i class="fa-brands fa-facebook fs-2"></i>
-                </a>
-                <a href="https://www.instagram.com/dhruvin0912/" class="text-light" target="_blank">
-                    <i class="fa-brands fa-instagram fs-2"></i>
-                </a>
-            </div>
-        </div>
-    </section>
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz4fnFO9tD52MDWz65y7eA9n6G8XBipHfB24x6N1w6jtQyB8GAzo8n9Ape"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073s4fl9kX6So8F+Q1tKrsnzO5N7aKzlsna+0yG8Psmgfi0G2/8dOfH7H1z"
-        crossorigin="anonymous"></script>
 </body>
 
 </html>
